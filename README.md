@@ -4,7 +4,8 @@
 
 crear una archivo en la ruta
 /src/types/modules/module-example.ts
-
+ ```sh
 export interface ExampleStateInterface {
   prop: boolean;
 }
+```
