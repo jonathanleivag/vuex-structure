@@ -1,6 +1,6 @@
 
 import { MutationTree } from 'vuex'
-import { ExampleStateInterface } from '../../../types/modules/module-example'
+import { ExampleStateInterface } from './state'
 
 const mutation: MutationTree<ExampleStateInterface> = {
   someMutation () {

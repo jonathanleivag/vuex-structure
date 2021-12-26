@@ -2,10 +2,4 @@
 
 - estructura en modulos de vuex
 
-crear una archivo en la ruta
-/src/types/modules/module-example.ts
- ```sh
-export interface ExampleStateInterface {
-  prop: boolean
-}
-```
+instalar vuex 4x o superior

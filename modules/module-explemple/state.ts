@@ -1,4 +1,6 @@
-import { ExampleStateInterface } from '../../../types/modules/module-example'
+export interface ExampleStateInterface {
+  prop: boolean
+}
 
 function state (): ExampleStateInterface {
   return {

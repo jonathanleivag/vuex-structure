@@ -1,6 +1,6 @@
 import { ActionTree } from 'vuex'
-import { ExampleStateInterface } from '../../../types/modules/module-example'
 import { StateInterface } from '../../index'
+import { ExampleStateInterface } from './state'
 
 const actions: ActionTree<ExampleStateInterface, StateInterface> = {
   someAction () {
