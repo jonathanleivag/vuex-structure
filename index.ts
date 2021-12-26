@@ -1,5 +1,4 @@
 import { createStore } from 'vuex'
-import { ExampleStateInterface } from '../types/modules/module-example'
 
 /*
 ../types/modules/module-example
@@ -9,6 +8,7 @@ export interface ExampleStateInterface {
 */
 
 import exampleModule from './modules/module-explemple'
+import { ExampleStateInterface } from './modules/module-explemple/state'
 
 export interface StateInterface {
   example: ExampleStateInterface
